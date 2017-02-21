@@ -1,0 +1,13 @@
+body *{
+	border: 1px solid;
+	position: relative;
+}
+
+.flex_container_header1 {
+	display: flex;
+	justify-content: center;
+}
+
+.column1 {
+	display: inline-flex;
+}
