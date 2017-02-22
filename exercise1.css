@@ -36,30 +36,32 @@ header .list {
 }
 
 
-li>a:link {
+.column li>a:link {
 	text-decoration: none;
 	color: #F1F1F1;
 }
 
-li>a:visited {
+.column li>a:visited {
 	text-decoration: none;
 	color: #F1F1F1;
 }
 
-li>a:focus {
+.column li>a:focus {
 	text-decoration: none;
 	color: #F1F1F1;
 }
 
-li>a:hover {
+.column li>a:hover {
 	text-decoration: underline;
 	color: #F1F1F1;
 }
 
-li>a:active {
+.column li>a:active {
 	text-decoration: none;
 	color: #F1F1F1;
 }
+
+
 
 
 a>ul>li:link {
@@ -126,4 +128,66 @@ input[name="search"] {
 	height: 35px;
 	top:10px;
 	left:30px;
+}
+
+
+.column1 {
+	display: inline-flex;
+	height: 50px;
+	background-color: #FAFAFA;
+}
+
+#music img {
+	height: 40px;	
+	margin-left: 60px;
+	margin-top: 5px;
+}
+
+.column1 li>a:link {
+	text-decoration: none;
+	color: black;
+}
+
+.column1 li>a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.column1 li>a:focus {
+	text-decoration: none;
+	color: black;
+}
+
+.column1 li>a:hover {
+	text-decoration: underline;
+	text-decoration-color: #ffcc02;
+	/*color: black;*/
+}
+
+.column1 li>a:active {
+	text-decoration: none;
+	color: black;
+}
+
+.column1.c2 .nav_list {
+	font-size: 95%;
+	margin-left: 50px;
+	border-left: 1px solid lightgrey;
+}
+
+.column1.c3 .nav_list {
+	left:0;
+	margin-left: 0px;
+}
+
+[alt="playbutton"] {
+	/*font-size: 95%;*/
+	margin-left: 20px;
+	border-left: 0px solid lightgrey;
+	width: 50px;
+	/*border: 5px solid;*/
+}
+
+.column1.c3 {
+	width: 40%;
 }
